@@ -20,7 +20,7 @@ export default function AboutPage() {
 
         <h2 className="text-2xl font-bold text-foreground">Our Commitment</h2>
         <ul className="list-disc pl-6 space-y-2">
-          <li><span className="text-foreground font-medium">Free Forever:</span> No subscriptions, no hidden fees.</li>
+          <li><span className="text-foreground font-medium">Free Forever:</span> No hidden fees, no limits, and no registration required.</li>
           <li><span className="text-foreground font-medium">Privacy First:</span> We don't track your downloads or store your personal data.</li>
           <li><span className="text-foreground font-medium">No Software Required:</span> Everything happens in your browser.</li>
         </ul>
