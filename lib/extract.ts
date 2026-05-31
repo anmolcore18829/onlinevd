@@ -1,7 +1,7 @@
 import { create } from "youtube-dl-exec";
 
 // In production (Vercel), we don't need a custom path if the binary is in the path
-// but youtube-dl-exec usually manages this. 
+// or managed by youtube-dl-exec. In development, you can set YTDLP_PATH if needed.
 const youtubedl = create(process.env.YTDLP_PATH || undefined);
 
 export interface VideoFormat {
